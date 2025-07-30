@@ -8,9 +8,9 @@ body {
     justify-content: center;
     align-items: start;
     min-height: 100vh;
-  }
-  
-  .container {
+}
+
+.container {
     background: #fff;
     padding: 30px;
     margin-top: 60px;
@@ -18,49 +18,49 @@ body {
     max-width: 500px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Heading */
-  h1 {
+}
+
+/* Heading */
+h1 {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  /* Form */
-  form {
+}
+
+/* Form */
+form {
     display: flex;
     gap: 10px;
-  }
-  
-  input[type="text"] {
+}
+
+input[type="text"] {
     flex: 1;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
     background-color: #2e86de;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #1e6dc2;
-  }
-  
-  /* Task list */
-  #task-list {
+}
+
+/* Task list */
+#task-list {
     list-style: none;
     padding: 0;
     margin-top: 20px;
-  }
-  
-  #task-list li {
+}
+
+#task-list li {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 12px;
@@ -69,17 +69,17 @@ body {
     justify-content: space-between;
     align-items: center;
     border-radius: 4px;
-  }
-  
-  .completed {
+}
+
+.completed {
     text-decoration: line-through;
     color: #888;
-  }
-  
-  .delete-btn {
+}
+
+.delete-btn {
     background: none;
     border: none;
     color: #c00;
     font-weight: bold;
     cursor: pointer;
-  }
+}
